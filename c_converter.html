@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Currency Converter</title>
+        <link rel="stylesheet" href="c_converter.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="from">
+                <select name="code1" id="C1"  onchange="getCurrencyRate(C1,C2)" >
+                    <!--option value="" disabled selected>Enter country code</option-->
+                    <option value="GBP">GBP</option>
+                    <option value="USD" >USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="AUD">AUD</option>
+                    <option value="INR" selected>INR</option>
+                    <option value="CNY">CNY</option>
+                    <option value="DKK">DKK</option>
+                </select>  
+
+                <select name="code2" id="C2" onchange="getCurrencyRate(C1,C2)" >
+                    <option value=" " disabled selected>Enter country code</option>
+                    <option value="GBP" >GBP</option>
+                    <option value="USD" selected>USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="AUD">AUD</option>
+                    <option value="INR">INR</option>
+                    <option value="CNY">CNY</option>
+                    <option value="DKK">DKK</option>
+                    
+                </select>     
+                        
+            </div>
+
+            <div class="to">
+                <input type="number" class = "input-box" id="Currency1" 
+                        value="1">
+                <input type="number" class = "input-box" id="Currency2" disabled >
+            </div>
+            
+        </div>
+
+        <script src="c_converter.js"></script>
+    </body>
+</html>

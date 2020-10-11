@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+    
+}
+.container{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 100px 200px;
+    padding: 20px 10px;
+}
+select{
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    margin: 10px 20px;
+    width: 120px;
+}
+.input-box{
+    border-radius: 10px;
+    background-color: rgb(38, 0, 255);
+    color: black;
+    padding: 3px;
+    border-style: none;
+    margin: 10px 20px;
+    width:120px;
+}
+.rate {
+	background-color: #fff;
+	border: 2px solid #ecf0f1;
+	border-radius: 50px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+	margin: 30px 15px 30px 25px;
+}
